@@ -1,0 +1,27 @@
+{
+  "name": "puppet-electron",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^1.18.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts-ts": "3.1.0"
+  },
+  "main": "electron/starter.js",
+  "scripts": {
+    "se": "electron .",
+    "dev": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "electron": "^5.0.6",
+    "typescript": "^3.5.3"
+  }
+}
